@@ -1,0 +1,21 @@
+1.
+path(path) → string
+Returns the string representation of the path
+File.path("/dev/null")          #=> "/dev/null"
+File.path(Pathname.new("/tmp")) #=> "/tmp"
+
+path → filename
+to_path → filename
+
+Returns the pathname used to create file as a string. Does not normalize the name.
+
+The pathname may not point to the file corresponding to file. For instance, the pathname becomes void when the file has been moved or deleted.
+
+This method raises IOError for a file created using File::Constants::TMPFILE because they don't have a pathname.
+
+
+
+The definiton for the File::path method and the File#path method are above.
+
+The obvious difference is that one is a Class method and one is an instance method.
+=end
