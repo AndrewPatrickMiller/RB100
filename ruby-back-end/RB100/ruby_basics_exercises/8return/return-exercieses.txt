@@ -1,0 +1,42 @@
+Breakfast lunch of dinner?
+
+PART 1
+It will print Breakfast because printing a method prints the return of the method.
+
+PART 2
+
+It will print Evening because in ruby the last line of the method is always retunred by default.
+
+Part 3
+
+It will print Breakfast because the retun keyword will stop the method and return that value
+
+Part 4
+
+It will print Dinner and Breakfast. The method will print Dinner and the puts key word will print meal .
+
+Part 5
+
+It will print Dinner once from the method the method returns nil so it will also print nil
+
+Part 6
+
+It will print Breakfast becuase the return will end execution and return Breakfast.
+
+Counting Sheep
+
+Part1
+
+it will print 0..5 it passes 4 indexes 0..4 and then returns 5 to be printed as the return.
+
+Part 2
+
+this will print 0..4 and 10 same reasoning as previous question.
+
+Part 3
+
+it will print 0..2 then it will retrun nil and print nill
+
+Tricky Number
+
+The conditional true is evaluated and the numnber 1 is returned then printed.
