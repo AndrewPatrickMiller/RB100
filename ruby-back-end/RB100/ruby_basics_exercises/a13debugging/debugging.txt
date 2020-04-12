@@ -1,0 +1,89 @@
+
+1. Reading Error Messages
+
+def find_first_nonzero_among(numbers)
+  numbers.each do |n|
+    return n if n.nonzero?
+  end
+end
+
+# wrong number of arguments (given 6, expected 1)
+# (repl):1:in `find_first_nonzero_among'
+# (repl):9:in `<main>'
+=begin
+In the method definition the method only specifies one argument, but in method call it has more arguments. It implies that it is expecting an array of integers, not a list of integers as individual arguments.
+=end
+
+find_first_nonzero_among(0, 0, 1, 0, 2, 0)
+find_first_nonzero_among(1)
+
+--------------------------------------------------------------------------------
+2. Weather Forecast
+
+true and false need to be changed from strings to booleans.
+
+def predict_weather
+  sunshine = ['true', 'false'].sample
+
+  if sunshine
+    puts "Today's weather will be sunny!"
+  else
+    puts "Today's weather will be cloudy!"
+  end
+end
+--------------------------------------------------------------------------------
+3. Multiply By Five
+
+
+the user inputs a string and it need to be converted to an integer by to_i
+
+--------------------------------------------------------------------------------
+4Pets
+She needs to append the new dog with << or prepend or unshift or push
+pets = { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' }
+
+pets[:dog] = 'bowser'
+
+p pets #=> {:cat=>"fluffy", :dog=>"bowser", :fish=>"oscar"}
+--------------------------------------------------------------------------------
+5.Even Numbers
+
+In this case you want to use the select iterator not the map iterator.
+
+numbers = [5, 2, 9, 6, 3, 1, 8]
+
+even_numbers = numbers.map do |n|
+  n if n.even?
+end
+
+p even_numbers
+
+
+
+--------------------------------------------------------------------------------.
+6. Confucius Says
+
+The return value of the method is finicky because the it is written as tree if statemtents and the final if statement will return nil if it is not true. So the methods need to be re written with explicit returns or implict returns from a continuous if elsif else statement.
+--------------------------------------------------------------------------------
+7.Account Balance
+
+balance = calculate_balance(month)
+
+on line 32 it says the above line when it shoul use a +=
+like the below line
+
+balance += calculate_balance(month)
+--------------------------------------------------------------------------------
+8. Colorful Things
+break if i > things.length - 1
+
+the break condition needs to be changed.
+--------------------------------------------------------------------------------
+9. Digit Production
+this one is very obvious because product = 0 the product of 0 is always 0 it needs to be initialized at 1
+--------------------------------------------------------------------------------
+10. Warriors and Wizards
+The first thing I noticed was the merge was not merge! then I read through the solution
+and saw that of course the user input is a string while the key value of the hash is a symbol. 
+
+--------------------------------------------------------------------------------
