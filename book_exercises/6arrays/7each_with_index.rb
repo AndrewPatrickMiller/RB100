@@ -1,5 +1,9 @@
+top_five_games = ["mario brothers",
+                  "excite bike",
+                  "ring king",
+                  "castlevania",
+                  "double dragon"]
 
-
-arr=[*'a'..'z']
-
-arr.each_with_index {|letter,index| puts "#{index+1}#{letter}"}
+top_five_games.each_with_index do | game, index |
+  puts "#{index + 1}. #{game}"
+end
