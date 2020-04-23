@@ -1,0 +1,37 @@
+1. Where to Find Documentation
+
+https://docs.ruby-lang.org/en/
+
+or
+
+http://ruby-doc.org
+
+Ruby Interactive in the command line
+-------------------------------------------------
+2. While loop
+The control expressions file.
+-------------------------------------------------
+3. Return value of while
+The return value will be nil
+The result of a while loop is nil unless break is used to supply a value.
+-------------------------------------------------
+4.Return Value of Break
+ break returns nil unless an agrument is provided
+-------------------------------------------------
+5. Large Numbers
+Literals are ways to make an object for example this makes a string:
+"con" "cat" "en" "at" "ion"
+
+This is a literal for a large number 123_456_123
+-------------------------------------------------
+6.Symbol Syntax
+Symbols can be made using interpolation and they can be made
+:name
+:Andrew
+-------------------------------------------------
+7.String Class
+The side bar is always full of the class names.
+-------------------------------------------------
+8.Right Justifying Strings
+.rjust will right justify the string class
+-------------------------------------------------

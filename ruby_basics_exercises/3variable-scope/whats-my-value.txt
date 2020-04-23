@@ -1,0 +1,38 @@
+----------------------------------------------------
+part1
+
+7 because a is not reassigned. so puts a will just return 7
+----------------------------------------------------
+part 2
+
+it will print 7 because the scope of the method does not assign a outside of the method.
+numbers are immutable
+----------------------------------------------------
+part 3
+it will print 7 because the reassignment of a still doesnt reach outside of the method .
+numbers are immutable
+----------------------------------------------------
+part 4
+the string will change becuase strings are mutable
+----------------------------------------------------
+part 5
+Xyzzy
+----------------------------------------------------
+part 6
+
+the variable is not initialized in the method so it not visible
+----------------------------------------------------
+it will put 3 because a will be lastly reassigned to 3
+----------------------------------------------------
+part 8
+a was initialized inside of the block so it will throw an error for an undefined variable.
+
+----------------------------------------------------
+part 9
+
+it will puts 7 becuase the two a variables are different.
+----------------------------------------------------
+part 10
+The method definition excludes a from the scope of the each block so that it throws
+and error explaining that the a variable wihtin the method is undefined.
+----------------------------------------------------

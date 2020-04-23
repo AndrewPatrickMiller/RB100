@@ -1,3 +1,10 @@
-# **RB 100 Programming & Back-end Prep**
-## This is where I keep all of my work for RB 100.
-## Thanks for visiting!  🙂
+#  <div align="center">RB 100</div>
+
+This is a repository for my LS RB 100 stuff. Thanks for visiting 🙂.
+
+
+
+
+
+
+
